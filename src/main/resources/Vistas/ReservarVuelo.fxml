@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="Fondo" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="819.0" stylesheets="@../Estilos/Estilos1.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.ReservarVueloController">
+   <children>
+      <Label fx:id="Titulo" text="Label" />
+      <HBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="300.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="300.0" prefWidth="420.0">
+               <children>
+                  <HBox fx:id="ContenedorOrigen" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                        <Label text="Origen" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Label text="Fecha de partida" />
+                        <DatePicker fx:id="DateSalida" editable="false" prefHeight="26.0" prefWidth="174.0" />
+                     </children>
+                  </HBox>
+                  <Label text="¿Cuantos viajan?" />
+                  <HBox fx:id="contenedorcantidad" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0" stylesheets="@../Estilos/Estilos1.css">
+                     <children>
+                        <Label text="Cantidad">
+                           <HBox.margin>
+                              <Insets left="40.0" />
+                           </HBox.margin></Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox maxWidth="-Infinity" prefHeight="300.0" prefWidth="400.0">
+               <children>
+                  <HBox fx:id="contenedorDestino" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                        <Label text="Destino" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Label text="Fecha de retorno" />
+                        <DatePicker fx:id="DateRetorno" editable="false" />
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#Buscar" text="Button" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

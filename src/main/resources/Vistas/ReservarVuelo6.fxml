@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.ReservarVuelo6Controller">
+   <content>
+      <VBox fx:id="ContenedorTarifas" alignment="TOP_CENTER" prefHeight="717.0" prefWidth="585.0" spacing="15.0">
+         <children>
+            <Label text="Label" />
+            <VBox prefHeight="48.0" prefWidth="585.0" spacing="5.0">
+               <children>
+                  <Label fx:id="fechaIda" text="Vuelo de ida:" />
+                  <Label fx:id="Partida" text="Label" />
+               </children>
+            </VBox>
+            <VBox fx:id="contenedorprimervuelo" prefHeight="56.0" prefWidth="585.0" />
+            <VBox prefHeight="48.0" prefWidth="585.0" spacing="5.0">
+               <children>
+                  <Label fx:id="FechaRegreso" text="Label" />
+                  <Label fx:id="Regreso" text="Label" />
+               </children>
+            </VBox>
+            <VBox fx:id="contenedorsegundorvuelo" prefHeight="61.0" prefWidth="585.0" />
+            <HBox alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="585.0">
+               <children>
+                  <Label text="Label" />
+               </children>
+               <padding>
+                  <Insets right="40.0" />
+               </padding>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#Confirmar" text="Button" />
+         </children>
+         <padding>
+            <Insets top="15.0" />
+         </padding>
+      </VBox>
+   </content>
+</ScrollPane>

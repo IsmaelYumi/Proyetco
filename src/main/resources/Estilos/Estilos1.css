@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 ene 2024, 15:19:06
+    Author     : Yumi
+*/
+
+Button{
+    -fx-background-color: #33FFD7;
+         -fx-border-color: #FFFFFF;
+         -fx-border-width: 2;
+         -fx-text-fill: #1f33a1;
+         -fx-font-family: "Comic Sans MS";
+         -fx-font-style: italic;
+         -fx-font-size: 14px;
+         -fx-background-radius: 10 10 10 10;
+         -fx-border-radius: 10 10 10 10;
+    
+}
+Label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-style: italic;
+    -fx-text-fill: #FFFFFF;
+    
+    }
+#Fondo{
+    -fx-background-image:url("/imagen/Fondo3.jpg");
+    -fx-background-size:cover;
+        
+    }
+#Titulo{
+     -fx-font-family: "Comic Sans MS";
+    -fx-font-style: italic;
+     -fx-font-size: 20px;     
+    }
+#ContenedorInformacion{
+         -fx-border-color: #D7FF33;
+         -fx-border-width: 2;
+    }
+#contenedorGeneral{
+        -fx-border-color: #D7FF33;
+        -fx-border-width: 2;
+    }
+    

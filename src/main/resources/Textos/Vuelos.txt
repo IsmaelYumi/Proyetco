@@ -1,0 +1,6 @@
+AV838,Guayaquil,Barcelona,20,03:30,05:20,Airbus A319,653.06
+AV838,Manta,Barcelona,20,03:30,05:20,Airbus A319,653.06
+AV838,Manta,Barcelona,19,03:30,05:20,Airbus A319,653.06
+AV838,Barcelona,Guayaquil,19,03:30,05:20,Airbus A319,653.06
+AV838,Barcelona,Guayaquil,20,03:30,05:20,Airbus A319,653.06
+AV838,Guayaquil,Barcelona,20,03:30,05:20,Airbus A319,653.06
